@@ -1,0 +1,25 @@
+<div class="row align-items-center"> 
+    <div class="col-12 col-md-10 col-xl-10 my-2" container="body">
+        <input  id="typeahead-basic" 
+                type="text" 
+                class="form-control form-control-lg" 
+                [(ngModel)]="model" 
+                [ngbTypeahead]="search"
+                placeholder="Find a city to explore"/>
+    </div>
+    <div>
+
+    </div>
+    <div class="col-12 col-md-2 col-xl-2 my-2">
+        <button class="btn btn-block 
+                    btn-lg searchButton">Let's Go!</button>
+    </div>
+</div>
+<div class="h6 pt-4 m-0 page-title font-weight-bold text-dark">
+    Trending Cities
+</div>
+<div class="py-2 row align-items-center">
+    <div *ngFor="let place of placeDisplay" class="col-12 col-md-4 col-xl-4 py-2">
+        <app-image-card [cardData]="place"></app-image-card>
+    </div>
+</div> 
