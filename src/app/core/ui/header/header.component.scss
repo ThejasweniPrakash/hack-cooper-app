@@ -1,0 +1,16 @@
+@import '~src/sass/colors';
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.profileIcon {
+    border-radius: 50%;
+    background-color: rgba($color: $primary, $alpha: 1.0);
+    color: whitesmoke;
+}
+
+.appName {
+    color: rgba($color: $primary, $alpha: 1.0);
+}
+

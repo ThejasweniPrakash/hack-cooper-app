@@ -1,0 +1,11 @@
+@import '~src/sass/colors';
+
+.searchButton {
+    background-color: rgba($color: $primary, $alpha: 1.0);
+    color: whitesmoke;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: rgba($color: $primary, $alpha: 1.0);
+}
