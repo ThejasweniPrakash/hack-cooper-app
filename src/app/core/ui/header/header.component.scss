@@ -3,7 +3,9 @@
 .cursor-pointer {
     cursor: pointer;
 }
-
+.navbar {
+    background-color: rgba($color: whitesmoke, $alpha: 1.0);
+}
 .profileIcon {
     border-radius: 50%;
     background-color: rgba($color: $primary, $alpha: 1.0);

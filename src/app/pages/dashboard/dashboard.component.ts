@@ -21,29 +21,29 @@ export class DashboardComponent implements OnInit {
 
   placeDisplay = [
     {
-      source: '../../../../assets/images/nyc.jpg',
+      source: '../../../../assets/images/nyc.gif',
       title: 'New York'
     },
     {
-      source: '../../../../assets/images/nyc.jpg',
-      title: 'New York'
+      source: '../../../../assets/images/barcelona.gif',
+      title: 'Barcelona'
     },
     {
-      source: '../../../../assets/images/nyc.jpg',
-      title: 'New York'
+      source: '../../../../assets/images/paris.gif',
+      title: 'Paris'
     },
     {
-      source: '../../../../assets/images/nyc.jpg',
-      title: 'New York'
+      source: '../../../../assets/images/mysuru.gif',
+      title: 'Mysore'
     },
     {
-      source: '../../../../assets/images/nyc.jpg',
-      title: 'New York'
+      source: '../../../../assets/images/kaula_lumpur.gif',
+      title: 'Kaula Lumpur'
     },
     {
-      source: '../../../../assets/images/nyc.jpg',
-      title: 'New York'
-    },
+      source: '../../../../assets/images/bangalore.gif',
+      title: 'Bangalore'
+    }
   ]
 
   constructor() { }
